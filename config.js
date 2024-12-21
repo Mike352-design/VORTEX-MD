@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '2349021506036';
+const defaultOwner = '254104916091';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '254104916091';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'VORTEX-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.botname = process.env.BOTNAME || 'Depah's Toy';
+global.pairingNumber = process.env.BOT_NUMBER || '254104916091';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['2349021506036', '923051391007']
+global.allowed = ['254104916091', '923051391007']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,7 +73,7 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'VORTEX-MD'
+global.packname = 'Alvins Bot'
 global.author = 'MX-GΔMΞCØDΞR'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/mxgamecoder'
